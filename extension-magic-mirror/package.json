@@ -1,0 +1,64 @@
+{
+  "name": "extension-magic-mirror",
+  "version": "1.1.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint --ext=.ts ./src ./tests",
+    "lint:fix": "eslint --ext=.ts --fix ./src ./tests",
+    "format": "prettier --check ./src ./tests",
+    "format:fix": "prettier --write ./src ./tests",
+    "test": "jest",
+    "test:watch": "jest -w"
+  },
+  "main": "build/index.js",
+  "teletron": {
+    "name": "magic-mirror",
+    "displayName": "Magic Mirror"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "extension:@typescript-eslint/recommended"
+    ],
+    "extensions": [
+      "unicorn"
+    ],
+    "rules": {
+      "unicorn/filename-case": "error"
+    }
+  },
+  "dependencies": {
+    "debug": "^4.3.2",
+    "font-awesome": "^4.7.0",
+    "magicmirror": "github:michmich/magicmirror#v2.16.0",
+    "module-alias": "^2.2.2",
+    "suncalc": "^1.8.0",
+    "weathericons": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.13",
+    "@types/module-alias": "^2.0.1",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "jest": "^27.0.6",
+    "teletron": "^0.4.3"
+  },
+  "magicMirror": {
+    "translations": "node_modules/magicmirror/translations",
+    "modules": {
+      "compliments": {
+        "location": "node_modules/magicmirror/modules/default/compliments"
+      },
+      "weather": {
+        "location": "node_modules/magicmirror/modules/default/weather"
+      },
+      "clock": {
+        "location": "node_modules/magicmirror/modules/default/clock"
+      },
+      "calendar": {
+        "location": "node_modules/magicmirror/modules/default/calendar"
+      }
+    }
+  }
+}

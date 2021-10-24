@@ -1,0 +1,41 @@
+{
+  "name": "extension-uptime-robot",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "eslint --ext=.ts ./src ./tests",
+    "lint:fix": "eslint --ext=.ts --fix ./src ./tests",
+    "format": "prettier --check ./src ./tests",
+    "format:fix": "prettier --write ./src ./tests",
+    "test": "jest",
+    "test:watch": "jest -w"
+  },
+  "main": "build/index.js",
+  "teletron": {
+    "name": "uptime-robot",
+    "displayName": "Uptime Robot"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "plugin:@typescript-eslint/recommended"
+    ],
+    "plugins": [
+      "unicorn"
+    ],
+    "rules": {
+      "unicorn/filename-case": "error"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.21.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.4.1",
+    "teletron": "^0.4.4"
+  }
+}
