@@ -1,6 +1,6 @@
 {
   "name": "extension-custom-css",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -28,12 +28,11 @@
       "unicorn/filename-case": "error"
     }
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/debug": "^4.1.7",
     "@types/express": "^4.17.13",
     "eslint-plugin-unicorn": "^36.0.0",
     "jest": "^27.0.6",
-    "teletron": "^0.4.3"
+    "teletron": "^0.7.1"
   }
 }
