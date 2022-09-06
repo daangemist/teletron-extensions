@@ -1,6 +1,6 @@
 {
   "name": "extension-calendar",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
