@@ -9,6 +9,12 @@
     "format": "prettier --check ./src ./tests",
     "format:fix": "prettier --write ./src ./tests"
   },
+  "keywords": [
+    "teletron",
+    "quotes",
+    "inspiration",
+    "text"
+  ],
   "main": "build/index.js",
   "teletron": {
     "name": "quotes",
