@@ -1,0 +1,9 @@
+{
+  "components": {
+    "carrousel": {
+      "displayName": "Task Carrousel",
+      "keywords": ["task", "carrousel", "todo"],
+      "description": "Organize related tasks inside sections in carrousels, horizontally. Once a task in one section is completed, reset a different section with tasks to its first task in the section."
+    }
+  }
+}
