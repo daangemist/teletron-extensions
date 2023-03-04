@@ -1,0 +1,36 @@
+{
+  "components": {
+    "image": {
+      "displayName": "Image",
+      "keywords": ["image", "photo"],
+      "description": "Show on external image on the display. Several options available for alignment/styling."
+    },
+    "iframe": {
+      "displayName": "Iframe",
+      "keywords": ["html", "iframe", "html"],
+      "description": "Display an external page using an Iframe."
+    },
+    "text": {
+      "displayName": "Text",
+      "keywords": ["markdown", "html", "notes"],
+      "description": "Display a text or document. Can be formatted using markdown, html or plain text."
+    }
+  },
+  "widgets": {
+    "remote-label": {
+      "displayName": "Remote Label",
+      "keywords": ["remote", "url", "json", "info", "information"],
+      "description": "Show a remote JSON value on a badge in the widget section."
+    },
+    "label": {
+      "displayName": "Label",
+      "keywords": ["text", "info", "information"],
+      "description": "Show a piece of text on a badge in the widget section."
+    },
+    "reload": {
+      "displayName": "Reload",
+      "keywords": ["reload", "refresh"],
+      "description": "Refresh and reinitialize the current page."
+    }
+  }
+}

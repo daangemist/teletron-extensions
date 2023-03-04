@@ -1,0 +1,9 @@
+{
+  "components": {
+    "simple": {
+      "displayName": "Simple",
+      "keywords": ["timer", "simple", "countdown"],
+      "description": "A straight-forward timer. Just set the time, start it on the display and let it count down."
+    }
+  }
+}

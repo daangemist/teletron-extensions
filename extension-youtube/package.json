@@ -1,15 +1,13 @@
 {
   "name": "extension-youtube",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "lint": "eslint --ext=.ts ./src ./tests",
-    "lint:fix": "eslint --ext=.ts --fix ./src ./tests",
-    "format": "prettier --check ./src ./tests",
-    "format:fix": "prettier --write ./src ./tests",
-    "test": "jest",
-    "test:watch": "jest -w"
+    "lint": "eslint --ext=.ts ./src",
+    "lint:fix": "eslint --ext=.ts --fix ./src",
+    "format": "prettier --check ./src",
+    "format:fix": "prettier --write ./src"
   },
   "main": "build/index.js",
   "teletron": {
@@ -19,7 +17,8 @@
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
     "extends": [
-      "extension:@typescript-eslint/recommended"
+      "extension:@typescript-eslint/recommended",
+      "unicorn/recommended"
     ],
     "extensions": [
       "unicorn"

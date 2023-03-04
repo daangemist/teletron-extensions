@@ -1,0 +1,14 @@
+{
+  "components": {
+    "playlist": {
+      "displayName": "Playlist",
+      "keywords": ["video", "playlist"],
+      "description": "Display and play the videos from a single playlist inline from youtube."
+    },
+    "playlists": {
+      "displayName": "Playlists",
+      "keywords": ["video", "playlists", "multiple"],
+      "description": "List multiple playlists and play their videos inline from youtube."
+    }
+  }
+}

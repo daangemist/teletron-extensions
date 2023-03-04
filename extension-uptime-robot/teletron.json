@@ -1,0 +1,16 @@
+{
+  "components": {
+    "monitorlist": {
+      "description": "Shows a list of the monitor entries with an error.",
+      "displayName": "Monitors",
+      "keywords": ["monitor", "error"]
+    }
+  },
+  "widgets": {
+    "monitors": {
+      "description": "Displays the number of monitors with an error.",
+      "displayName": "Monitors",
+      "keywords": ["monitors", "counter"]
+    }
+  }
+}

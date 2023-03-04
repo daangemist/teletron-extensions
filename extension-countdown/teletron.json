@@ -1,0 +1,9 @@
+{
+  "components": {
+    "countdown": {
+      "keywords": ["timer", "time", "counter", "countdown"],
+      "displayName": "Countdown",
+      "description": "A countdown timer that counts down to a specific date, and optionally a time."
+    }
+  }
+}

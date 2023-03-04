@@ -1,0 +1,21 @@
+{
+  "components": {
+    "upcoming": {
+      "displayName": "Upcoming events",
+      "keywords": ["calendar", "upcoming", "events"],
+      "description": "Display a calendar view with a list of all events that are coming up."
+    },
+    "day-start-end": {
+      "displayName": "Day start/end",
+      "keywords": ["day", "overview", "list"],
+      "description": "Renders the start time of the first calendar event of the day and the end time of the last event of the day."
+    }
+  },
+  "widgets": {
+    "day-start-end": {
+      "displayName": "Day start/end",
+      "keywords": ["day", "overview", "list"],
+      "description": "Renders two widgets: one with the start time of the first calendar event of the day and one with the end time of the last event of the day."
+    }
+  }
+}

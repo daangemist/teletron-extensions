@@ -1,0 +1,9 @@
+{
+  "components": {
+    "quotes": {
+      "displayName": "Quotes",
+      "keywords": ["quotes", "random", "citation"],
+      "description": "Display a random quote, randomly cycle through a list of quotes. Specificy your own or use the predefined list."
+    }
+  }
+}

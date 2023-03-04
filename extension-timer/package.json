@@ -1,6 +1,6 @@
 {
   "name": "extension-timer",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -10,6 +10,10 @@
     "format:fix": "prettier --write ./src ./tests"
   },
   "main": "build/index.js",
+  "author": {
+    "name": "daangemist",
+    "url": "https://www.daangemist.nl"
+  },
   "teletron": {
     "name": "timer",
     "displayName": "Timer"
